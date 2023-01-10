@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Buttons
+        </title>
+    </head>
+    <body>
+        <style>
+            .tweet-button{
+               background-color: rgb(31, 149, 245);
+               border-color: white;
+               color: white;
+               border-radius: 22px;
+               border-style: solid;
+               height: 37px;
+               width: 80px;
+               font-size: 150;
+               font-family: Arial, Helvetica, sans-serif;
+               cursor: pointer;
+               margin-left: 20px;
+               margin-top: 20px;
+               transition: opacity 5s;
+               
+             }
+            .tweet-button:hover{
+                opacity: 0.7;
+                color: rgb(31, 149, 245);
+                background-color: white;
+                border-color: rgb(31, 149, 245);
+                font-family: cursive;
+            }
+            .tweet-button::shadow{
+                height: 50px;
+            }
+        </style>
+         <button class="tweet-button">
+            Tweet
+        </button>
+    </body>
+</html>
